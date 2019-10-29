@@ -1,0 +1,11 @@
+教育决策信息平台：
+main.py：主函数，调用其他函数，处理逻辑；
+search_url.py：模拟浏览器，自动检索，获取URL；
+search_data.py：传入URL，爬取对应数据，存入csv；
+hdbs_mysql.py：读取xls数据，写入hdbs数据库，以及数据库删除、查改，并生成db_urls去重；
+send_email.py：发送电子邮件，用于内部审核
+email_url.py：发送电子邮件，数据报告
+topkey.py：关键词分析、情感分析、生成自动摘要；
+base_list.py：存放关键词列表、主题词列表、主题词MD5码列表、网站url列表、网站名列表；
+check_ping.py：检查网络，并自动联网CCNU-CMCC
+
